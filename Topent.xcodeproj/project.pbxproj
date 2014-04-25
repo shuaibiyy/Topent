@@ -7,14 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2007CD3018F957E200E2BA14 /* SHSubscriptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2007CD2F18F957E200E2BA14 /* SHSubscriptionsViewController.m */; };
+		2020A33618A9A0C700FC78FD /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2020A33518A9A0C700FC78FD /* Main_iPhone.storyboard */; };
+		2020A35918A9A0D700FC78FD /* FBMissingSymbols.m in Sources */ = {isa = PBXBuildFile; fileRef = 2020A33C18A9A0D600FC78FD /* FBMissingSymbols.m */; };
+		2020A35B18A9A0D700FC78FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2020A33E18A9A0D600FC78FD /* InfoPlist.strings */; };
+		2020A35C18A9A0D700FC78FD /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2020A33F18A9A0D600FC78FD /* Main_iPad.storyboard */; };
+		2020A35E18A9A0D700FC78FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2020A34118A9A0D600FC78FD /* main.m */; };
+		2020A36F18A9A33700FC78FD /* SHInternshipsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2020A36E18A9A33700FC78FD /* SHInternshipsTableViewController.m */; };
+		2020A37218A9A4B200FC78FD /* SHEventsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2020A37118A9A4B200FC78FD /* SHEventsTableViewController.m */; };
+		2020A37E18A9A53600FC78FD /* SHScholarshipsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2020A37D18A9A53600FC78FD /* SHScholarshipsTableViewController.m */; };
+		2020A38118A9A55A00FC78FD /* SHLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2020A38018A9A55A00FC78FD /* SHLoginViewController.m */; };
+		2020A38718A9A6D700FC78FD /* SHScholarshipSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2020A38618A9A6D700FC78FD /* SHScholarshipSection.m */; };
+		2020A38A18A9A6D800FC78FD /* SHScholarship.m in Sources */ = {isa = PBXBuildFile; fileRef = 2020A38918A9A6D800FC78FD /* SHScholarship.m */; };
+		2020A38D18AF7B6600FC78FD /* SHScholarshipsDetailedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2020A38C18AF7B6600FC78FD /* SHScholarshipsDetailedViewController.m */; };
+		2021DB3818A2DF5000A8AC92 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2021DB3718A2DF5000A8AC92 /* Parse.framework */; };
+		2021DB4218A2DFC700A8AC92 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2021DB3918A2DFC700A8AC92 /* AudioToolbox.framework */; };
+		2021DB4318A2DFC700A8AC92 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2021DB3A18A2DFC700A8AC92 /* CFNetwork.framework */; };
+		2021DB4418A2DFC700A8AC92 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2021DB3B18A2DFC700A8AC92 /* CoreLocation.framework */; };
+		2021DB4518A2DFC700A8AC92 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2021DB3C18A2DFC700A8AC92 /* libz.dylib */; };
+		2021DB4618A2DFC700A8AC92 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2021DB3D18A2DFC700A8AC92 /* MobileCoreServices.framework */; };
+		2021DB4718A2DFC700A8AC92 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2021DB3E18A2DFC700A8AC92 /* QuartzCore.framework */; };
+		2021DB4818A2DFC700A8AC92 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2021DB3F18A2DFC700A8AC92 /* Security.framework */; };
+		2021DB4918A2DFC700A8AC92 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2021DB4018A2DFC700A8AC92 /* StoreKit.framework */; };
+		2021DB4A18A2DFC700A8AC92 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2021DB4118A2DFC700A8AC92 /* SystemConfiguration.framework */; };
+		2022D33418DDDCD700237694 /* SHInternshipsDetailedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2022D33318DDDCD700237694 /* SHInternshipsDetailedViewController.m */; };
+		2022D33918DDDD3500237694 /* SHInternshipsFavoritesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2022D33818DDDD3500237694 /* SHInternshipsFavoritesTableViewController.m */; };
+		2022D33C18DDDD9900237694 /* SHEventsDetailedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2022D33B18DDDD9900237694 /* SHEventsDetailedViewController.m */; };
+		2022D33F18DDDDE700237694 /* SHEventsFavoritesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2022D33E18DDDDE700237694 /* SHEventsFavoritesTableViewController.m */; };
+		20922EB418C3A14300397D35 /* SHSideNavTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20922EB318C3A14300397D35 /* SHSideNavTableViewController.m */; };
+		20922EB718C3A51900397D35 /* SHHomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20922EB618C3A51900397D35 /* SHHomeTableViewController.m */; };
+		20922EBA18CCD87A00397D35 /* SHScholarshipsFavoritesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20922EB918CCD87A00397D35 /* SHScholarshipsFavoritesTableViewController.m */; };
 		20E8BE5E1881962600F52247 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20E8BE5D1881962600F52247 /* Foundation.framework */; };
 		20E8BE601881962600F52247 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20E8BE5F1881962600F52247 /* CoreGraphics.framework */; };
 		20E8BE621881962600F52247 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20E8BE611881962600F52247 /* UIKit.framework */; };
-		20E8BE681881962600F52247 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20E8BE661881962600F52247 /* InfoPlist.strings */; };
-		20E8BE6A1881962600F52247 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E8BE691881962600F52247 /* main.m */; };
 		20E8BE6E1881962600F52247 /* SHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E8BE6D1881962600F52247 /* SHAppDelegate.m */; };
-		20E8BE711881962600F52247 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20E8BE6F1881962600F52247 /* Main_iPhone.storyboard */; };
-		20E8BE741881962600F52247 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20E8BE721881962600F52247 /* Main_iPad.storyboard */; };
 		20E8BE771881962600F52247 /* SHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E8BE761881962600F52247 /* SHViewController.m */; };
 		20E8BE791881962600F52247 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20E8BE781881962600F52247 /* Images.xcassets */; };
 		20E8BE801881962600F52247 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20E8BE7F1881962600F52247 /* XCTest.framework */; };
@@ -22,6 +48,9 @@
 		20E8BE821881962600F52247 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20E8BE611881962600F52247 /* UIKit.framework */; };
 		20E8BE8A1881962600F52247 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20E8BE881881962600F52247 /* InfoPlist.strings */; };
 		20E8BE8C1881962600F52247 /* TopentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E8BE8B1881962600F52247 /* TopentTests.m */; };
+		20EC53DC188CEB72003456E5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20EC53DB188CEB72003456E5 /* CoreData.framework */; };
+		20EC53DF188CEB9D003456E5 /* SHModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 20EC53DD188CEB9D003456E5 /* SHModel.xcdatamodeld */; };
+		20F5B692190A921D00540E1A /* SHCoreTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F5B691190A921D00540E1A /* SHCoreTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,18 +64,60 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2007CD2E18F957E200E2BA14 /* SHSubscriptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHSubscriptionsViewController.h; path = Topent/Controllers/Subscriptions/SHSubscriptionsViewController.h; sourceTree = "<group>"; };
+		2007CD2F18F957E200E2BA14 /* SHSubscriptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHSubscriptionsViewController.m; path = Topent/Controllers/Subscriptions/SHSubscriptionsViewController.m; sourceTree = "<group>"; };
+		2020A33518A9A0C700FC78FD /* Main_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
+		2020A33C18A9A0D600FC78FD /* FBMissingSymbols.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBMissingSymbols.m; sourceTree = "<group>"; };
+		2020A33E18A9A0D600FC78FD /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		2020A33F18A9A0D600FC78FD /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = "<group>"; };
+		2020A34118A9A0D600FC78FD /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2020A35718A9A0D700FC78FD /* Topent-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Topent-Info.plist"; sourceTree = "<group>"; };
+		2020A36D18A9A33700FC78FD /* SHInternshipsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHInternshipsTableViewController.h; path = Internships/SHInternshipsTableViewController.h; sourceTree = "<group>"; };
+		2020A36E18A9A33700FC78FD /* SHInternshipsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHInternshipsTableViewController.m; path = Internships/SHInternshipsTableViewController.m; sourceTree = "<group>"; };
+		2020A37018A9A4B200FC78FD /* SHEventsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHEventsTableViewController.h; path = Events/SHEventsTableViewController.h; sourceTree = "<group>"; };
+		2020A37118A9A4B200FC78FD /* SHEventsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHEventsTableViewController.m; path = Events/SHEventsTableViewController.m; sourceTree = "<group>"; };
+		2020A37C18A9A53600FC78FD /* SHScholarshipsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHScholarshipsTableViewController.h; sourceTree = "<group>"; };
+		2020A37D18A9A53600FC78FD /* SHScholarshipsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHScholarshipsTableViewController.m; sourceTree = "<group>"; };
+		2020A37F18A9A55A00FC78FD /* SHLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHLoginViewController.h; path = Login/SHLoginViewController.h; sourceTree = "<group>"; };
+		2020A38018A9A55A00FC78FD /* SHLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHLoginViewController.m; path = Login/SHLoginViewController.m; sourceTree = "<group>"; };
+		2020A38518A9A6D700FC78FD /* SHScholarshipSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHScholarshipSection.h; path = Model/SHScholarshipSection.h; sourceTree = "<group>"; };
+		2020A38618A9A6D700FC78FD /* SHScholarshipSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHScholarshipSection.m; path = Model/SHScholarshipSection.m; sourceTree = "<group>"; };
+		2020A38818A9A6D800FC78FD /* SHScholarship.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHScholarship.h; path = Model/SHScholarship.h; sourceTree = "<group>"; };
+		2020A38918A9A6D800FC78FD /* SHScholarship.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHScholarship.m; path = Model/SHScholarship.m; sourceTree = "<group>"; };
+		2020A38B18AF7B6600FC78FD /* SHScholarshipsDetailedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHScholarshipsDetailedViewController.h; sourceTree = "<group>"; };
+		2020A38C18AF7B6600FC78FD /* SHScholarshipsDetailedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHScholarshipsDetailedViewController.m; sourceTree = "<group>"; };
+		2021DB3718A2DF5000A8AC92 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		2021DB3918A2DFC700A8AC92 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		2021DB3A18A2DFC700A8AC92 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		2021DB3B18A2DFC700A8AC92 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		2021DB3C18A2DFC700A8AC92 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		2021DB3D18A2DFC700A8AC92 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		2021DB3E18A2DFC700A8AC92 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2021DB3F18A2DFC700A8AC92 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		2021DB4018A2DFC700A8AC92 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		2021DB4118A2DFC700A8AC92 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		2022D33218DDDCD700237694 /* SHInternshipsDetailedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHInternshipsDetailedViewController.h; path = Internships/SHInternshipsDetailedViewController.h; sourceTree = "<group>"; };
+		2022D33318DDDCD700237694 /* SHInternshipsDetailedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHInternshipsDetailedViewController.m; path = Internships/SHInternshipsDetailedViewController.m; sourceTree = "<group>"; };
+		2022D33718DDDD3500237694 /* SHInternshipsFavoritesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHInternshipsFavoritesTableViewController.h; path = Internships/SHInternshipsFavoritesTableViewController.h; sourceTree = "<group>"; };
+		2022D33818DDDD3500237694 /* SHInternshipsFavoritesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHInternshipsFavoritesTableViewController.m; path = Internships/SHInternshipsFavoritesTableViewController.m; sourceTree = "<group>"; };
+		2022D33A18DDDD9900237694 /* SHEventsDetailedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHEventsDetailedViewController.h; path = Events/SHEventsDetailedViewController.h; sourceTree = "<group>"; };
+		2022D33B18DDDD9900237694 /* SHEventsDetailedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHEventsDetailedViewController.m; path = Events/SHEventsDetailedViewController.m; sourceTree = "<group>"; };
+		2022D33D18DDDDE700237694 /* SHEventsFavoritesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHEventsFavoritesTableViewController.h; path = Events/SHEventsFavoritesTableViewController.h; sourceTree = "<group>"; };
+		2022D33E18DDDDE700237694 /* SHEventsFavoritesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHEventsFavoritesTableViewController.m; path = Events/SHEventsFavoritesTableViewController.m; sourceTree = "<group>"; };
+		20922EB218C3A14300397D35 /* SHSideNavTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHSideNavTableViewController.h; path = Navigation/SHSideNavTableViewController.h; sourceTree = "<group>"; };
+		20922EB318C3A14300397D35 /* SHSideNavTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHSideNavTableViewController.m; path = Navigation/SHSideNavTableViewController.m; sourceTree = "<group>"; };
+		20922EB518C3A51900397D35 /* SHHomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHHomeTableViewController.h; sourceTree = "<group>"; };
+		20922EB618C3A51900397D35 /* SHHomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHHomeTableViewController.m; sourceTree = "<group>"; };
+		20922EB818CCD87A00397D35 /* SHScholarshipsFavoritesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHScholarshipsFavoritesTableViewController.h; sourceTree = "<group>"; };
+		20922EB918CCD87A00397D35 /* SHScholarshipsFavoritesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHScholarshipsFavoritesTableViewController.m; sourceTree = "<group>"; };
 		20E8BE5A1881962600F52247 /* Topent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Topent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20E8BE5D1881962600F52247 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		20E8BE5F1881962600F52247 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		20E8BE611881962600F52247 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		20E8BE651881962600F52247 /* Topent-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Topent-Info.plist"; sourceTree = "<group>"; };
-		20E8BE671881962600F52247 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		20E8BE691881962600F52247 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		20E8BE6B1881962600F52247 /* Topent-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Topent-Prefix.pch"; sourceTree = "<group>"; };
 		20E8BE6C1881962600F52247 /* SHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHAppDelegate.h; sourceTree = "<group>"; };
 		20E8BE6D1881962600F52247 /* SHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHAppDelegate.m; sourceTree = "<group>"; };
-		20E8BE701881962600F52247 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		20E8BE731881962600F52247 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		20E8BE751881962600F52247 /* SHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHViewController.h; sourceTree = "<group>"; };
 		20E8BE761881962600F52247 /* SHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHViewController.m; sourceTree = "<group>"; };
 		20E8BE781881962600F52247 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -55,6 +126,10 @@
 		20E8BE871881962600F52247 /* TopentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TopentTests-Info.plist"; sourceTree = "<group>"; };
 		20E8BE891881962600F52247 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		20E8BE8B1881962600F52247 /* TopentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopentTests.m; sourceTree = "<group>"; };
+		20EC53DB188CEB72003456E5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		20EC53DE188CEB9D003456E5 /* SHModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SHModel.xcdatamodel; sourceTree = "<group>"; };
+		20F5B690190A921D00540E1A /* SHCoreTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHCoreTableViewController.h; path = Controllers/Core/SHCoreTableViewController.h; sourceTree = "<group>"; };
+		20F5B691190A921D00540E1A /* SHCoreTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHCoreTableViewController.m; path = Controllers/Core/SHCoreTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +137,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2021DB4218A2DFC700A8AC92 /* AudioToolbox.framework in Frameworks */,
+				2021DB4318A2DFC700A8AC92 /* CFNetwork.framework in Frameworks */,
+				2021DB4418A2DFC700A8AC92 /* CoreLocation.framework in Frameworks */,
+				2021DB4518A2DFC700A8AC92 /* libz.dylib in Frameworks */,
+				2021DB4618A2DFC700A8AC92 /* MobileCoreServices.framework in Frameworks */,
+				2021DB4718A2DFC700A8AC92 /* QuartzCore.framework in Frameworks */,
+				2021DB4818A2DFC700A8AC92 /* Security.framework in Frameworks */,
+				2021DB4918A2DFC700A8AC92 /* StoreKit.framework in Frameworks */,
+				2021DB4A18A2DFC700A8AC92 /* SystemConfiguration.framework in Frameworks */,
 				20E8BE601881962600F52247 /* CoreGraphics.framework in Frameworks */,
+				20EC53DC188CEB72003456E5 /* CoreData.framework in Frameworks */,
 				20E8BE621881962600F52247 /* UIKit.framework in Frameworks */,
 				20E8BE5E1881962600F52247 /* Foundation.framework in Frameworks */,
+				2021DB3818A2DF5000A8AC92 /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,9 +167,120 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2007CD3118F957EB00E2BA14 /* Subscriptions */ = {
+			isa = PBXGroup;
+			children = (
+				2007CD2E18F957E200E2BA14 /* SHSubscriptionsViewController.h */,
+				2007CD2F18F957E200E2BA14 /* SHSubscriptionsViewController.m */,
+			);
+			name = Subscriptions;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		2020A33818A9A0D600FC78FD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				20F5B693190A922500540E1A /* Core */,
+				2007CD3118F957EB00E2BA14 /* Subscriptions */,
+				20922EB118C3A0F500397D35 /* Navigation */,
+				2020A36C18A9A27600FC78FD /* Internships */,
+				2020A36B18A9A25E00FC78FD /* Login */,
+				2020A36A18A9A25000FC78FD /* Events */,
+				2020A33918A9A0D600FC78FD /* Home */,
+				2020A33A18A9A0D600FC78FD /* Scholarships */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2020A33918A9A0D600FC78FD /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				20922EB518C3A51900397D35 /* SHHomeTableViewController.h */,
+				20922EB618C3A51900397D35 /* SHHomeTableViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2020A33A18A9A0D600FC78FD /* Scholarships */ = {
+			isa = PBXGroup;
+			children = (
+				2020A37C18A9A53600FC78FD /* SHScholarshipsTableViewController.h */,
+				2020A37D18A9A53600FC78FD /* SHScholarshipsTableViewController.m */,
+				2020A38B18AF7B6600FC78FD /* SHScholarshipsDetailedViewController.h */,
+				2020A38C18AF7B6600FC78FD /* SHScholarshipsDetailedViewController.m */,
+				20922EB818CCD87A00397D35 /* SHScholarshipsFavoritesTableViewController.h */,
+				20922EB918CCD87A00397D35 /* SHScholarshipsFavoritesTableViewController.m */,
+			);
+			path = Scholarships;
+			sourceTree = "<group>";
+		};
+		2020A36A18A9A25000FC78FD /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				2020A37018A9A4B200FC78FD /* SHEventsTableViewController.h */,
+				2020A37118A9A4B200FC78FD /* SHEventsTableViewController.m */,
+				2022D33A18DDDD9900237694 /* SHEventsDetailedViewController.h */,
+				2022D33B18DDDD9900237694 /* SHEventsDetailedViewController.m */,
+				2022D33D18DDDDE700237694 /* SHEventsFavoritesTableViewController.h */,
+				2022D33E18DDDDE700237694 /* SHEventsFavoritesTableViewController.m */,
+			);
+			name = Events;
+			sourceTree = "<group>";
+		};
+		2020A36B18A9A25E00FC78FD /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				2020A37F18A9A55A00FC78FD /* SHLoginViewController.h */,
+				2020A38018A9A55A00FC78FD /* SHLoginViewController.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		2020A36C18A9A27600FC78FD /* Internships */ = {
+			isa = PBXGroup;
+			children = (
+				2020A36D18A9A33700FC78FD /* SHInternshipsTableViewController.h */,
+				2020A36E18A9A33700FC78FD /* SHInternshipsTableViewController.m */,
+				2022D33218DDDCD700237694 /* SHInternshipsDetailedViewController.h */,
+				2022D33318DDDCD700237694 /* SHInternshipsDetailedViewController.m */,
+				2022D33718DDDD3500237694 /* SHInternshipsFavoritesTableViewController.h */,
+				2022D33818DDDD3500237694 /* SHInternshipsFavoritesTableViewController.m */,
+			);
+			name = Internships;
+			sourceTree = "<group>";
+		};
+		2022D2AD18D233E500237694 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		208E98EB1894245B00408D0A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				20EC53DD188CEB9D003456E5 /* SHModel.xcdatamodeld */,
+				2020A38818A9A6D800FC78FD /* SHScholarship.h */,
+				2020A38918A9A6D800FC78FD /* SHScholarship.m */,
+				2020A38518A9A6D700FC78FD /* SHScholarshipSection.h */,
+				2020A38618A9A6D700FC78FD /* SHScholarshipSection.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		20922EB118C3A0F500397D35 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				20922EB218C3A14300397D35 /* SHSideNavTableViewController.h */,
+				20922EB318C3A14300397D35 /* SHSideNavTableViewController.m */,
+			);
+			name = Navigation;
+			sourceTree = "<group>";
+		};
 		20E8BE511881962600F52247 = {
 			isa = PBXGroup;
 			children = (
+				2021DB3718A2DF5000A8AC92 /* Parse.framework */,
 				20E8BE631881962600F52247 /* Topent */,
 				20E8BE851881962600F52247 /* TopentTests */,
 				20E8BE5C1881962600F52247 /* Frameworks */,
@@ -103,6 +300,16 @@
 		20E8BE5C1881962600F52247 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2021DB3918A2DFC700A8AC92 /* AudioToolbox.framework */,
+				2021DB3A18A2DFC700A8AC92 /* CFNetwork.framework */,
+				2021DB3B18A2DFC700A8AC92 /* CoreLocation.framework */,
+				2021DB3C18A2DFC700A8AC92 /* libz.dylib */,
+				2021DB3D18A2DFC700A8AC92 /* MobileCoreServices.framework */,
+				2021DB3E18A2DFC700A8AC92 /* QuartzCore.framework */,
+				2021DB3F18A2DFC700A8AC92 /* Security.framework */,
+				2021DB4018A2DFC700A8AC92 /* StoreKit.framework */,
+				2021DB4118A2DFC700A8AC92 /* SystemConfiguration.framework */,
+				20EC53DB188CEB72003456E5 /* CoreData.framework */,
 				20E8BE5D1881962600F52247 /* Foundation.framework */,
 				20E8BE5F1881962600F52247 /* CoreGraphics.framework */,
 				20E8BE611881962600F52247 /* UIKit.framework */,
@@ -114,12 +321,17 @@
 		20E8BE631881962600F52247 /* Topent */ = {
 			isa = PBXGroup;
 			children = (
-				20E8BE6C1881962600F52247 /* SHAppDelegate.h */,
-				20E8BE6D1881962600F52247 /* SHAppDelegate.m */,
-				20E8BE6F1881962600F52247 /* Main_iPhone.storyboard */,
-				20E8BE721881962600F52247 /* Main_iPad.storyboard */,
+				2020A33818A9A0D600FC78FD /* Controllers */,
+				2022D2AD18D233E500237694 /* Views */,
+				208E98EB1894245B00408D0A /* Model */,
+				2020A33C18A9A0D600FC78FD /* FBMissingSymbols.m */,
+				2020A33F18A9A0D600FC78FD /* Main_iPad.storyboard */,
+				2020A33518A9A0C700FC78FD /* Main_iPhone.storyboard */,
 				20E8BE751881962600F52247 /* SHViewController.h */,
 				20E8BE761881962600F52247 /* SHViewController.m */,
+				20E8BE6C1881962600F52247 /* SHAppDelegate.h */,
+				20E8BE6D1881962600F52247 /* SHAppDelegate.m */,
+				2020A34118A9A0D600FC78FD /* main.m */,
 				20E8BE781881962600F52247 /* Images.xcassets */,
 				20E8BE641881962600F52247 /* Supporting Files */,
 			);
@@ -129,8 +341,8 @@
 		20E8BE641881962600F52247 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				20E8BE651881962600F52247 /* Topent-Info.plist */,
-				20E8BE661881962600F52247 /* InfoPlist.strings */,
+				2020A35718A9A0D700FC78FD /* Topent-Info.plist */,
+				2020A33E18A9A0D600FC78FD /* InfoPlist.strings */,
 				20E8BE691881962600F52247 /* main.m */,
 				20E8BE6B1881962600F52247 /* Topent-Prefix.pch */,
 			);
@@ -153,6 +365,16 @@
 				20E8BE881881962600F52247 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		20F5B693190A922500540E1A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				20F5B690190A921D00540E1A /* SHCoreTableViewController.h */,
+				20F5B691190A921D00540E1A /* SHCoreTableViewController.m */,
+			);
+			name = Core;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,9 +422,12 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = SH;
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Shuaib Yunus";
 				TargetAttributes = {
+					20E8BE591881962600F52247 = {
+						DevelopmentTeam = 3XXG9X63NM;
+					};
 					20E8BE7D1881962600F52247 = {
 						TestTargetID = 20E8BE591881962600F52247;
 					};
@@ -232,10 +457,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20E8BE741881962600F52247 /* Main_iPad.storyboard in Resources */,
+				2020A35B18A9A0D700FC78FD /* InfoPlist.strings in Resources */,
 				20E8BE791881962600F52247 /* Images.xcassets in Resources */,
-				20E8BE711881962600F52247 /* Main_iPhone.storyboard in Resources */,
-				20E8BE681881962600F52247 /* InfoPlist.strings in Resources */,
+				2020A33618A9A0C700FC78FD /* Main_iPhone.storyboard in Resources */,
+				2020A35C18A9A0D700FC78FD /* Main_iPad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,9 +479,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20E8BE6A1881962600F52247 /* main.m in Sources */,
+				20EC53DF188CEB9D003456E5 /* SHModel.xcdatamodeld in Sources */,
+				2007CD3018F957E200E2BA14 /* SHSubscriptionsViewController.m in Sources */,
+				2020A37E18A9A53600FC78FD /* SHScholarshipsTableViewController.m in Sources */,
+				2020A38D18AF7B6600FC78FD /* SHScholarshipsDetailedViewController.m in Sources */,
+				20F5B692190A921D00540E1A /* SHCoreTableViewController.m in Sources */,
+				2020A35918A9A0D700FC78FD /* FBMissingSymbols.m in Sources */,
+				2020A35E18A9A0D700FC78FD /* main.m in Sources */,
+				2022D33918DDDD3500237694 /* SHInternshipsFavoritesTableViewController.m in Sources */,
+				2022D33C18DDDD9900237694 /* SHEventsDetailedViewController.m in Sources */,
+				20922EB718C3A51900397D35 /* SHHomeTableViewController.m in Sources */,
+				2020A37218A9A4B200FC78FD /* SHEventsTableViewController.m in Sources */,
+				2020A36F18A9A33700FC78FD /* SHInternshipsTableViewController.m in Sources */,
+				2020A38A18A9A6D800FC78FD /* SHScholarship.m in Sources */,
+				2022D33F18DDDDE700237694 /* SHEventsFavoritesTableViewController.m in Sources */,
 				20E8BE771881962600F52247 /* SHViewController.m in Sources */,
+				2020A38118A9A55A00FC78FD /* SHLoginViewController.m in Sources */,
+				20922EBA18CCD87A00397D35 /* SHScholarshipsFavoritesTableViewController.m in Sources */,
 				20E8BE6E1881962600F52247 /* SHAppDelegate.m in Sources */,
+				2022D33418DDDCD700237694 /* SHInternshipsDetailedViewController.m in Sources */,
+				20922EB418C3A14300397D35 /* SHSideNavTableViewController.m in Sources */,
+				2020A38718A9A6D700FC78FD /* SHScholarshipSection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,30 +522,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		20E8BE661881962600F52247 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				20E8BE671881962600F52247 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		20E8BE6F1881962600F52247 /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				20E8BE701881962600F52247 /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		20E8BE721881962600F52247 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				20E8BE731881962600F52247 /* Base */,
-			);
-			name = Main_iPad.storyboard;
-			sourceTree = "<group>";
-		};
 		20E8BE881881962600F52247 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -318,7 +537,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -358,7 +576,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -382,6 +599,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -391,12 +609,26 @@
 		20E8BE901881962600F52247 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/shuaib/playground/Topent,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Topent/Topent-Prefix.pch";
 				INFOPLIST_FILE = "Topent/Topent-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -404,12 +636,25 @@
 		20E8BE911881962600F52247 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/shuaib/playground/Topent,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Topent/Topent-Prefix.pch";
 				INFOPLIST_FILE = "Topent/Topent-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -417,7 +662,6 @@
 		20E8BE931881962600F52247 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Topent.app/Topent";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -440,7 +684,6 @@
 		20E8BE941881962600F52247 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Topent.app/Topent";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -475,6 +718,7 @@
 				20E8BE911881962600F52247 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20E8BE921881962600F52247 /* Build configuration list for PBXNativeTarget "TopentTests" */ = {
 			isa = XCConfigurationList;
@@ -483,8 +727,23 @@
 				20E8BE941881962600F52247 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		20EC53DD188CEB9D003456E5 /* SHModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				20EC53DE188CEB9D003456E5 /* SHModel.xcdatamodel */,
+			);
+			currentVersion = 20EC53DE188CEB9D003456E5 /* SHModel.xcdatamodel */;
+			name = SHModel.xcdatamodeld;
+			path = ../SHModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 20E8BE521881962600F52247 /* Project object */;
 }
