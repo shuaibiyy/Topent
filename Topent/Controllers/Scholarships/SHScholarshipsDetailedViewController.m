@@ -8,10 +8,6 @@
 
 #import "SHScholarshipsDetailedViewController.h"
 
-@interface SHScholarshipsDetailedViewController ()
-
-@end
-
 @implementation SHScholarshipsDetailedViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil

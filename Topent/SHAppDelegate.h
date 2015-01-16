@@ -11,6 +11,7 @@
 
 @interface SHAppDelegate : UIResponder <UIApplicationDelegate>
 
-@property (strong, nonatomic) UIWindow *window;
+@property(strong, nonatomic) UIWindow *window;
+@property(atomic) BOOL isScholarshipSubscriber;
 
 @end

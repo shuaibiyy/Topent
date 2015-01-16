@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2007CD3018F957E200E2BA14 /* SHSubscriptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2007CD2F18F957E200E2BA14 /* SHSubscriptionsViewController.m */; };
-		2020A33618A9A0C700FC78FD /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2020A33518A9A0C700FC78FD /* Main_iPhone.storyboard */; };
 		2020A35918A9A0D700FC78FD /* FBMissingSymbols.m in Sources */ = {isa = PBXBuildFile; fileRef = 2020A33C18A9A0D600FC78FD /* FBMissingSymbols.m */; };
 		2020A35B18A9A0D700FC78FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2020A33E18A9A0D600FC78FD /* InfoPlist.strings */; };
 		2020A35C18A9A0D700FC78FD /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2020A33F18A9A0D600FC78FD /* Main_iPad.storyboard */; };
@@ -51,6 +50,7 @@
 		20EC53DC188CEB72003456E5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20EC53DB188CEB72003456E5 /* CoreData.framework */; };
 		20EC53DF188CEB9D003456E5 /* SHModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 20EC53DD188CEB9D003456E5 /* SHModel.xcdatamodeld */; };
 		20F5B692190A921D00540E1A /* SHCoreTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F5B691190A921D00540E1A /* SHCoreTableViewController.m */; };
+		20F5B694190A954700540E1A /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20F5B696190A954700540E1A /* Main_iPhone.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,7 +66,6 @@
 /* Begin PBXFileReference section */
 		2007CD2E18F957E200E2BA14 /* SHSubscriptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHSubscriptionsViewController.h; path = Topent/Controllers/Subscriptions/SHSubscriptionsViewController.h; sourceTree = "<group>"; };
 		2007CD2F18F957E200E2BA14 /* SHSubscriptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHSubscriptionsViewController.m; path = Topent/Controllers/Subscriptions/SHSubscriptionsViewController.m; sourceTree = "<group>"; };
-		2020A33518A9A0C700FC78FD /* Main_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
 		2020A33C18A9A0D600FC78FD /* FBMissingSymbols.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBMissingSymbols.m; sourceTree = "<group>"; };
 		2020A33E18A9A0D600FC78FD /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
 		2020A33F18A9A0D600FC78FD /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = "<group>"; };
@@ -130,6 +129,7 @@
 		20EC53DE188CEB9D003456E5 /* SHModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SHModel.xcdatamodel; sourceTree = "<group>"; };
 		20F5B690190A921D00540E1A /* SHCoreTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHCoreTableViewController.h; path = Controllers/Core/SHCoreTableViewController.h; sourceTree = "<group>"; };
 		20F5B691190A921D00540E1A /* SHCoreTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHCoreTableViewController.m; path = Controllers/Core/SHCoreTableViewController.m; sourceTree = "<group>"; };
+		20F5B695190A954700540E1A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -326,7 +326,7 @@
 				208E98EB1894245B00408D0A /* Model */,
 				2020A33C18A9A0D600FC78FD /* FBMissingSymbols.m */,
 				2020A33F18A9A0D600FC78FD /* Main_iPad.storyboard */,
-				2020A33518A9A0C700FC78FD /* Main_iPhone.storyboard */,
+				20F5B696190A954700540E1A /* Main_iPhone.storyboard */,
 				20E8BE751881962600F52247 /* SHViewController.h */,
 				20E8BE761881962600F52247 /* SHViewController.m */,
 				20E8BE6C1881962600F52247 /* SHAppDelegate.h */,
@@ -459,7 +459,7 @@
 			files = (
 				2020A35B18A9A0D700FC78FD /* InfoPlist.strings in Resources */,
 				20E8BE791881962600F52247 /* Images.xcassets in Resources */,
-				2020A33618A9A0C700FC78FD /* Main_iPhone.storyboard in Resources */,
+				20F5B694190A954700540E1A /* Main_iPhone.storyboard in Resources */,
 				2020A35C18A9A0D700FC78FD /* Main_iPad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -528,6 +528,14 @@
 				20E8BE891881962600F52247 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		20F5B696190A954700540E1A /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20F5B695190A954700540E1A /* en */,
+			);
+			name = Main_iPhone.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -627,7 +635,7 @@
 					"-all_load",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "B6ACE249-BA30-44B6-8B2D-9C4350079262";
 				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = app;
 			};
@@ -653,7 +661,7 @@
 					"-all_load",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "B6ACE249-BA30-44B6-8B2D-9C4350079262";
 				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = app;
 			};

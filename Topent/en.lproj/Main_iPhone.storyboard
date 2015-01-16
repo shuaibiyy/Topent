@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13C1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="gSc-qY-dr9">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="gSc-qY-dr9">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+        <deployment defaultVersion="1792" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <scenes>
-        <!--Table View Controller - Subscriptions-->
+        <!--Subscriptions-->
         <scene sceneID="GXW-aQ-zO0">
             <objects>
                 <tableViewController id="hkq-ug-kSe" sceneMemberID="viewController">
@@ -101,7 +102,7 @@
             </objects>
             <point key="canvasLocation" x="-1033" y="-337"/>
         </scene>
-        <!--Subscriptions View Controller - Subscriptions-->
+        <!--Subscriptions-->
         <scene sceneID="mkt-dR-Ql1">
             <objects>
                 <viewController id="Igl-dn-OLE" customClass="SHSubscriptionsViewController" sceneMemberID="viewController">
@@ -114,18 +115,17 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pQw-lw-zUo">
-                                <rect key="frame" x="106" y="157" width="89" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="frame" x="211" y="142" width="89" height="30"/>
                                 <state key="normal" title="Scholarships">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="ScholarshipSubscribeBtn:" destination="Igl-dn-OLE" eventType="touchUpInside" id="kZM-vv-hCZ"/>
+                                    <action selector="scholarshipsSubscribe:" destination="Igl-dn-OLE" eventType="touchUpInside" id="3IU-z5-OQV"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6FX-pT-eCE">
-                                <rect key="frame" x="112" y="269" width="76" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="frame" x="20" y="142" width="76" height="30"/>
                                 <state key="normal" title="Internships">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -134,8 +134,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LYS-cb-2E1">
-                                <rect key="frame" x="127" y="388" width="47" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="frame" x="137" y="142" width="47" height="30"/>
                                 <state key="normal" title="Events">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -152,7 +151,7 @@
             </objects>
             <point key="canvasLocation" x="-476" y="-361"/>
         </scene>
-        <!--Internships Favorites Table View Controller - Favorites-->
+        <!--Favorites-->
         <scene sceneID="4f5-gz-4tz">
             <objects>
                 <tableViewController id="DVl-nk-6O4" customClass="SHInternshipsFavoritesTableViewController" sceneMemberID="viewController">
@@ -211,13 +210,11 @@
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eAl-Kq-vlS">
                                 <rect key="frame" x="20" y="115" width="280" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="abc-Pd-pFU">
                                 <rect key="frame" x="20" y="183" width="280" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -234,7 +231,7 @@
             </objects>
             <point key="canvasLocation" x="200" y="-179"/>
         </scene>
-        <!--Home Table View Controller - Home-->
+        <!--Home-->
         <scene sceneID="tqC-kW-clb">
             <objects>
                 <tableViewController id="yqb-WS-sOg" customClass="SHHomeTableViewController" sceneMemberID="viewController">
@@ -342,7 +339,7 @@
             </objects>
             <point key="canvasLocation" x="-1033" y="670"/>
         </scene>
-        <!--Internships Table View Controller - Internships-->
+        <!--Internships-->
         <scene sceneID="GwI-Y1-R8H">
             <objects>
                 <tableViewController id="ofT-oh-jTT" customClass="SHInternshipsTableViewController" sceneMemberID="viewController">
@@ -396,7 +393,7 @@
             </objects>
             <point key="canvasLocation" x="-476" y="352"/>
         </scene>
-        <!--Scholarships Table View Controller - Scholarships-->
+        <!--Scholarships-->
         <scene sceneID="F28-qJ-D9T">
             <objects>
                 <tableViewController id="HS1-xV-fMe" customClass="SHScholarshipsTableViewController" sceneMemberID="viewController">
@@ -465,14 +462,12 @@
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r1D-mW-sm2">
                                 <rect key="frame" x="20" y="103" width="280" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O0L-9w-y6N">
                                 <rect key="frame" x="20" y="157" width="280" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -489,7 +484,7 @@
             </objects>
             <point key="canvasLocation" x="760" y="860"/>
         </scene>
-        <!--Navigation Controller - Item-->
+        <!--Item-->
         <scene sceneID="Hfq-v4-VEc">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="gSc-qY-dr9" sceneMemberID="viewController">
@@ -509,7 +504,7 @@
             </objects>
             <point key="canvasLocation" x="-1514" y="670"/>
         </scene>
-        <!--Events Table View Controller - Events-->
+        <!--Events-->
         <scene sceneID="kIG-G2-pdJ">
             <objects>
                 <tableViewController id="7pu-PG-Fv9" customClass="SHEventsTableViewController" sceneMemberID="viewController">
@@ -556,7 +551,7 @@
             </objects>
             <point key="canvasLocation" x="-476" y="2038"/>
         </scene>
-        <!--Events Favorites Table View Controller - Favorites-->
+        <!--Favorites-->
         <scene sceneID="bCC-Zc-0cC">
             <objects>
                 <tableViewController id="S21-US-DLN" customClass="SHEventsFavoritesTableViewController" sceneMemberID="viewController">
@@ -615,14 +610,12 @@
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WSL-Yd-uHw">
                                 <rect key="frame" x="20" y="110" width="280" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WAi-nR-bwu">
                                 <rect key="frame" x="20" y="175" width="280" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -639,7 +632,7 @@
             </objects>
             <point key="canvasLocation" x="200" y="1765"/>
         </scene>
-        <!--Scholarships Favorites Table View Controller - Favorites-->
+        <!--Favorites-->
         <scene sceneID="fCw-mH-rdv">
             <objects>
                 <tableViewController id="hre-p3-Eqp" customClass="SHScholarshipsFavoritesTableViewController" sceneMemberID="viewController">
@@ -685,10 +678,10 @@
             <point key="canvasLocation" x="760" y="1598"/>
         </scene>
     </scenes>
-    <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
+    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
 </document>

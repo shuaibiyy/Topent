@@ -34,18 +34,31 @@ const int kLoadingCellTag = 1273;
 - (id)initWithCoder:(NSCoder *)aCoder {
     self = [super initWithCoder:aCoder];
     if (self) {
-        // The className to query on
         self.parseClassName = @"Scholarship";
         self.favoritesKey = @"scholarshipsFavorites";
         self.favoritesList = [[NSMutableSet alloc] init];
         self.objects = [NSMutableArray array];
         self.sortedDataSource = [NSMutableArray array];
-        self.objectsPerPage = 5;
+        self.objectsPerPage = 20;
+
     }
     return self;
 }
 
 #pragma mark - View lifecycle
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    
+    [self.navigationController.navigationBar setBarStyle:UIBarStyleBlackTranslucent];
+    
+    self.navigationController.navigationBar.barTintColor = UIColorFromRGB(0x00688B);
+    self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
+    self.navigationController.navigationBar.translucent = NO;
+    
+    [self.tableView setSeparatorStyle:UITableViewCellSeparatorStyleNone];
+}
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -104,9 +117,10 @@ const int kLoadingCellTag = 1273;
     
     if (self.currentPage < self.totalPages) {
         return self.objects.count + 1;
+        //return self.objectsPerPage;
     }
     
-    return [self.objects count];
+    return self.objects.count;
 }
 
 - (void)retrieveDataCallback:(NSArray *)parseObjects error:(NSError *)error {
@@ -133,8 +147,8 @@ const int kLoadingCellTag = 1273;
             }
         }
         
-        NSLog(@"Favorites: %lu", (unsigned long)favorited.count);
-        NSLog(@"None favorites: %lu", (unsigned long)nonFavorited.count);
+        //NSLog(@"Favorites: %lu", (unsigned long)favorited.count);
+        //NSLog(@"None favorites: %lu", (unsigned long)nonFavorited.count);
         
         self.objects  = [favorited mutableCopy];
         [self.objects addObjectsFromArray:nonFavorited];
@@ -143,9 +157,9 @@ const int kLoadingCellTag = 1273;
         
         NSLog(@"Total Pages: %d", self.totalPages);
         
-        for (PFObject *obj in self.objects) {
-            NSLog(@"Name: %@", [obj objectForKey:@"name"]);
-        }
+//        for (PFObject *obj in self.objects) {
+//            NSLog(@"Name: %@", [obj objectForKey:@"name"]);
+//        }
         
         dispatch_async(dispatch_get_main_queue(), ^ {
             [self.tableView reloadData];
@@ -167,6 +181,9 @@ const int kLoadingCellTag = 1273;
         query.cachePolicy = kPFCachePolicyCacheThenNetwork;
     }
     
+    // TODO: Modify the query to be able to fetch the next set of results based on the current page
+    
+    query.limit = self.objectsPerPage;
     [query orderByDescending:@"createdAt"];
     
     [query findObjectsInBackgroundWithTarget:self
@@ -187,7 +204,17 @@ const int kLoadingCellTag = 1273;
     }
     
     // Configure the cell
-    cell.textLabel.textColor = [UIColor redColor];
+    if (indexPath.row % 2)
+    {
+        [cell setBackgroundColor:UIColorFromRGB(0x00688B)];
+    }
+    else [cell setBackgroundColor:UIColorFromRGB(0x009ACD)];
+    
+//    
+//    [cell.contentView.layer setBorderColor:UIColorFromRGB(0x00688B).CGColor];
+//    //[cell.contentView.layer setBorderWidth:2.0f];
+    
+    cell.textLabel.textColor = [UIColor whiteColor];
     cell.textLabel.text = [parseObjectForCell objectForKey:@"name"];
     cell.detailTextLabel.text = [parseObjectForCell objectForKey:@"summary"];
     
@@ -217,11 +244,12 @@ const int kLoadingCellTag = 1273;
 // Override to customize the look of a cell representing an object. The default is to display
 // a UITableViewCellStyleDefault style cell with the label being the first key in the object.
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    if (indexPath.row < self.objects.count) {
-        return [self scholarshipCellForIndexPath:indexPath];
-    } else {
-        return [self loadingCell];
+    if (self.objects.count) {
+        if (indexPath.row < self.objectsPerPage) {
+            return [self scholarshipCellForIndexPath:indexPath];
+        }
     }
+    return [self loadingCell];
 }
 
 - (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -234,7 +262,7 @@ const int kLoadingCellTag = 1273;
 #pragma mark - Table view delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    [super tableView:tableView didSelectRowAtIndexPath:indexPath];
+    //[super tableView:tableView didSelectRowAtIndexPath:indexPath];
 }
 
 #pragma mark - Navigation
